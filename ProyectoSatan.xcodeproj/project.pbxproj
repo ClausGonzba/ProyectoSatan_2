@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48023DD72CE24262002BBA9D /* ViewControllerSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48023DD62CE24262002BBA9D /* ViewControllerSignIn.swift */; };
+		48AB5F222CD297BB0077C1A4 /* CreateANewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB5F212CD297BB0077C1A4 /* CreateANewAccount.swift */; };
 		48ECE88F2CCFCE4C00267F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE88E2CCFCE4C00267F1F /* AppDelegate.swift */; };
 		48ECE8912CCFCE4C00267F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8902CCFCE4C00267F1F /* SceneDelegate.swift */; };
 		48ECE8932CCFCE4C00267F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8922CCFCE4C00267F1F /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		48ECE8A62CCFCE4E00267F1F /* ProyectoSatanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8A52CCFCE4E00267F1F /* ProyectoSatanTests.swift */; };
 		48ECE8B02CCFCE4E00267F1F /* ProyectoSatanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8AF2CCFCE4E00267F1F /* ProyectoSatanUITests.swift */; };
 		48ECE8B22CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8B12CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift */; };
+		48ECE8BF2CCFD3E300267F1F /* ViewControllerForYourPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8BE2CCFD3E300267F1F /* ViewControllerForYourPage.swift */; };
+		FB0E5E892CEE658A003EA249 /* GradientImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0E5E882CEE658A003EA249 /* GradientImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48023DD62CE24262002BBA9D /* ViewControllerSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSignIn.swift; sourceTree = "<group>"; };
+		48AB5F212CD297BB0077C1A4 /* CreateANewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateANewAccount.swift; sourceTree = "<group>"; };
 		48ECE88B2CCFCE4C00267F1F /* ProyectoSatan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoSatan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48ECE88E2CCFCE4C00267F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48ECE8902CCFCE4C00267F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		48ECE8AB2CCFCE4E00267F1F /* ProyectoSatanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoSatanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48ECE8AF2CCFCE4E00267F1F /* ProyectoSatanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoSatanUITests.swift; sourceTree = "<group>"; };
 		48ECE8B12CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoSatanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48ECE8BE2CCFD3E300267F1F /* ViewControllerForYourPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForYourPage.swift; sourceTree = "<group>"; };
+		FB0E5E882CEE658A003EA249 /* GradientImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				48ECE88E2CCFCE4C00267F1F /* AppDelegate.swift */,
 				48ECE8902CCFCE4C00267F1F /* SceneDelegate.swift */,
 				48ECE8922CCFCE4C00267F1F /* ViewController.swift */,
+				48ECE8BE2CCFD3E300267F1F /* ViewControllerForYourPage.swift */,
+				48AB5F212CD297BB0077C1A4 /* CreateANewAccount.swift */,
+				FB0E5E882CEE658A003EA249 /* GradientImageViewController.swift */,
+				48023DD62CE24262002BBA9D /* ViewControllerSignIn.swift */,
 				48ECE8942CCFCE4C00267F1F /* Main.storyboard */,
 				48ECE8972CCFCE4E00267F1F /* Assets.xcassets */,
 				48ECE8992CCFCE4E00267F1F /* LaunchScreen.storyboard */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48AB5F222CD297BB0077C1A4 /* CreateANewAccount.swift in Sources */,
+				48ECE8BF2CCFD3E300267F1F /* ViewControllerForYourPage.swift in Sources */,
 				48ECE8932CCFCE4C00267F1F /* ViewController.swift in Sources */,
+				FB0E5E892CEE658A003EA249 /* GradientImageViewController.swift in Sources */,
 				48ECE88F2CCFCE4C00267F1F /* AppDelegate.swift in Sources */,
+				48023DD72CE24262002BBA9D /* ViewControllerSignIn.swift in Sources */,
 				48ECE8912CCFCE4C00267F1F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
