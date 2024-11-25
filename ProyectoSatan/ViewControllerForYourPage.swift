@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class ViewControllerForYourPage: UIViewController {
 
     override func viewDidLoad() {
@@ -16,6 +17,10 @@ class ViewControllerForYourPage: UIViewController {
     }
     
 
+    @IBOutlet weak var PosterTurningRed: UIView!
+    
+    @IBOutlet var PosterTheBatman: UIView!
+    
     /*
     // MARK: - Navigation
 

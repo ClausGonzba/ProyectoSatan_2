@@ -20,6 +20,16 @@
 		48ECE8B22CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8B12CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift */; };
 		48ECE8BF2CCFD3E300267F1F /* ViewControllerForYourPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECE8BE2CCFD3E300267F1F /* ViewControllerForYourPage.swift */; };
 		FB0E5E892CEE658A003EA249 /* GradientImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0E5E882CEE658A003EA249 /* GradientImageViewController.swift */; };
+		FB459B252CF4FEE100A07FC7 /* Arcane.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B1C2CF4FEE100A07FC7 /* Arcane.mp4 */; };
+		FB459B262CF4FEE100A07FC7 /* TheManFromU.N.C.L.E..mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B212CF4FEE100A07FC7 /* TheManFromU.N.C.L.E..mp4 */; };
+		FB459B272CF4FEE100A07FC7 /* TurningRed.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B232CF4FEE100A07FC7 /* TurningRed.mp4 */; };
+		FB459B282CF4FEE100A07FC7 /* FANTASTICMR.FOX.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B1D2CF4FEE100A07FC7 /* FANTASTICMR.FOX.mp4 */; };
+		FB459B292CF4FEE100A07FC7 /* TheGrandBudapestHotel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B202CF4FEE100A07FC7 /* TheGrandBudapestHotel.mp4 */; };
+		FB459B2A2CF4FEE100A07FC7 /* TLotriTheTwoTowers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B222CF4FEE100A07FC7 /* TLotriTheTwoTowers.mp4 */; };
+		FB459B2B2CF4FEE100A07FC7 /* WONKA.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B242CF4FEE100A07FC7 /* WONKA.mp4 */; };
+		FB459B2C2CF4FEE100A07FC7 /* HowToTrainYourDragon2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B1E2CF4FEE100A07FC7 /* HowToTrainYourDragon2.mp4 */; };
+		FB459B2D2CF4FEE100A07FC7 /* LEGOBatman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB459B1F2CF4FEE100A07FC7 /* LEGOBatman.mp4 */; };
+		FB459B332CF504F800A07FC7 /* FilmDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB459B322CF504F800A07FC7 /* FilmDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,16 @@
 		48ECE8B12CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoSatanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48ECE8BE2CCFD3E300267F1F /* ViewControllerForYourPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForYourPage.swift; sourceTree = "<group>"; };
 		FB0E5E882CEE658A003EA249 /* GradientImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientImageViewController.swift; sourceTree = "<group>"; };
+		FB459B1C2CF4FEE100A07FC7 /* Arcane.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arcane.mp4; sourceTree = "<group>"; };
+		FB459B1D2CF4FEE100A07FC7 /* FANTASTICMR.FOX.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FANTASTICMR.FOX.mp4; sourceTree = "<group>"; };
+		FB459B1E2CF4FEE100A07FC7 /* HowToTrainYourDragon2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HowToTrainYourDragon2.mp4; sourceTree = "<group>"; };
+		FB459B1F2CF4FEE100A07FC7 /* LEGOBatman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LEGOBatman.mp4; sourceTree = "<group>"; };
+		FB459B202CF4FEE100A07FC7 /* TheGrandBudapestHotel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheGrandBudapestHotel.mp4; sourceTree = "<group>"; };
+		FB459B212CF4FEE100A07FC7 /* TheManFromU.N.C.L.E..mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheManFromU.N.C.L.E..mp4; sourceTree = "<group>"; };
+		FB459B222CF4FEE100A07FC7 /* TLotriTheTwoTowers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TLotriTheTwoTowers.mp4; sourceTree = "<group>"; };
+		FB459B232CF4FEE100A07FC7 /* TurningRed.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TurningRed.mp4; sourceTree = "<group>"; };
+		FB459B242CF4FEE100A07FC7 /* WONKA.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WONKA.mp4; sourceTree = "<group>"; };
+		FB459B322CF504F800A07FC7 /* FilmDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,8 @@
 		48ECE88D2CCFCE4C00267F1F /* ProyectoSatan */ = {
 			isa = PBXGroup;
 			children = (
+				FB459B2F2CF503F400A07FC7 /* ImagenGrande */,
+				FB459B1A2CF4EC9300A07FC7 /* Recurcitos */,
 				48ECE88E2CCFCE4C00267F1F /* AppDelegate.swift */,
 				48ECE8902CCFCE4C00267F1F /* SceneDelegate.swift */,
 				48ECE8922CCFCE4C00267F1F /* ViewController.swift */,
@@ -114,6 +136,7 @@
 				48AB5F212CD297BB0077C1A4 /* CreateANewAccount.swift */,
 				FB0E5E882CEE658A003EA249 /* GradientImageViewController.swift */,
 				48023DD62CE24262002BBA9D /* ViewControllerSignIn.swift */,
+				FB459B322CF504F800A07FC7 /* FilmDetailsViewController.swift */,
 				48ECE8942CCFCE4C00267F1F /* Main.storyboard */,
 				48ECE8972CCFCE4E00267F1F /* Assets.xcassets */,
 				48ECE8992CCFCE4E00267F1F /* LaunchScreen.storyboard */,
@@ -137,6 +160,37 @@
 				48ECE8B12CCFCE4E00267F1F /* ProyectoSatanUITestsLaunchTests.swift */,
 			);
 			path = ProyectoSatanUITests;
+			sourceTree = "<group>";
+		};
+		FB459B1A2CF4EC9300A07FC7 /* Recurcitos */ = {
+			isa = PBXGroup;
+			children = (
+				FB459B1B2CF4ECA500A07FC7 /* Videos */,
+			);
+			path = Recurcitos;
+			sourceTree = "<group>";
+		};
+		FB459B1B2CF4ECA500A07FC7 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				FB459B1C2CF4FEE100A07FC7 /* Arcane.mp4 */,
+				FB459B1D2CF4FEE100A07FC7 /* FANTASTICMR.FOX.mp4 */,
+				FB459B1E2CF4FEE100A07FC7 /* HowToTrainYourDragon2.mp4 */,
+				FB459B1F2CF4FEE100A07FC7 /* LEGOBatman.mp4 */,
+				FB459B202CF4FEE100A07FC7 /* TheGrandBudapestHotel.mp4 */,
+				FB459B212CF4FEE100A07FC7 /* TheManFromU.N.C.L.E..mp4 */,
+				FB459B222CF4FEE100A07FC7 /* TLotriTheTwoTowers.mp4 */,
+				FB459B232CF4FEE100A07FC7 /* TurningRed.mp4 */,
+				FB459B242CF4FEE100A07FC7 /* WONKA.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		FB459B2F2CF503F400A07FC7 /* ImagenGrande */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImagenGrande;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +298,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				48ECE8982CCFCE4E00267F1F /* Assets.xcassets in Resources */,
+				FB459B252CF4FEE100A07FC7 /* Arcane.mp4 in Resources */,
+				FB459B262CF4FEE100A07FC7 /* TheManFromU.N.C.L.E..mp4 in Resources */,
+				FB459B272CF4FEE100A07FC7 /* TurningRed.mp4 in Resources */,
+				FB459B282CF4FEE100A07FC7 /* FANTASTICMR.FOX.mp4 in Resources */,
+				FB459B292CF4FEE100A07FC7 /* TheGrandBudapestHotel.mp4 in Resources */,
+				FB459B2A2CF4FEE100A07FC7 /* TLotriTheTwoTowers.mp4 in Resources */,
+				FB459B2B2CF4FEE100A07FC7 /* WONKA.mp4 in Resources */,
+				FB459B2C2CF4FEE100A07FC7 /* HowToTrainYourDragon2.mp4 in Resources */,
+				FB459B2D2CF4FEE100A07FC7 /* LEGOBatman.mp4 in Resources */,
 				48ECE89B2CCFCE4E00267F1F /* Base in Resources */,
 				48ECE8962CCFCE4C00267F1F /* Base in Resources */,
 			);
@@ -277,6 +340,7 @@
 				48ECE88F2CCFCE4C00267F1F /* AppDelegate.swift in Sources */,
 				48023DD72CE24262002BBA9D /* ViewControllerSignIn.swift in Sources */,
 				48ECE8912CCFCE4C00267F1F /* SceneDelegate.swift in Sources */,
+				FB459B332CF504F800A07FC7 /* FilmDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
