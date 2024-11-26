@@ -45,7 +45,7 @@ class CreateANewAccount: UIViewController {
         }
         
     }//final de CrearCuentaBoton
-    
+
     
     
     func displayExito(){
@@ -91,6 +91,15 @@ class CreateANewAccount: UIViewController {
      */
     
     
+    @IBOutlet var GOboton: UIView!
     
+    @IBOutlet var edadAdecuadaBoton: UISwitch!
+    
+    @IBOutlet var aceptacionPoliticaSwitch: UISwitch!
+    
+    
+    func SistemaBloqueo(){
+        
     }
+}
 

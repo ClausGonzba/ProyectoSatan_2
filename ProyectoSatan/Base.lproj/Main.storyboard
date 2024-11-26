@@ -21,7 +21,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Sign in"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign in">
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="LmP-B7-OUc" kind="presentation" modalPresentationStyle="fullScreen" id="unN-3W-fPc"/>
                                 </connections>
@@ -31,7 +33,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Create account"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Create account">
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="0SL-rn-nsb" kind="presentation" modalPresentationStyle="fullScreen" id="Ifu-QZ-BHu"/>
                                 </connections>
@@ -41,7 +45,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Skip this step"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Skip this step">
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="skipButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cq7-WF-iOD"/>
                                     <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="a7o-GZ-W22"/>
@@ -83,11 +89,11 @@
             <objects>
                 <viewController id="V2k-0M-gOE" customClass="ViewControllerForYourPage" customModule="ProyectoSatan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7jg-9h-eKM">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3EX-Og-096">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euz-38-QMj">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
@@ -159,113 +165,11 @@
                                                     <constraint firstItem="4hh-Fv-QYR" firstAttribute="bottom" secondItem="hou-Yg-tFb" secondAttribute="bottomMargin" id="wC0-Lk-NeB"/>
                                                 </constraints>
                                             </view>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="81bhnd-MN1L._AC_UF1000,1000_QL80_" translatesAutoresizingMaskIntoConstraints="NO" id="FuS-aR-Un7">
-                                                <rect key="frame" x="8" y="131" width="94" height="151"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="94" id="3NQ-7l-h8s"/>
-                                                    <constraint firstAttribute="height" constant="151" id="bBb-qh-ue5"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="Y7z-qo-JKc">
-                                                <rect key="frame" x="8" y="282" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="c07257ef5681c8f309b4a69ccd04fcc1" translatesAutoresizingMaskIntoConstraints="NO" id="GWA-Af-R6M">
-                                                <rect key="frame" x="102" y="131" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="X0B-PB-52a">
-                                                <rect key="frame" x="102" y="282" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="rlL-8c-0Ce">
-                                                <rect key="frame" x="196" y="282" width="94" height="151"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHK-J9-vi5">
+                                                <rect key="frame" x="291" y="287" width="85" height="139"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="The_Man_from_U.N.C.L.E._poster" translatesAutoresizingMaskIntoConstraints="NO" id="6zX-aN-9XC">
-                                                <rect key="frame" x="291" y="282" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thebatman2022poster" translatesAutoresizingMaskIntoConstraints="NO" id="8Kc-vb-W56">
-                                                <rect key="frame" x="8" y="434" width="94" height="151"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="151" id="tUk-5Z-HMF"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WVd-g2-a8m">
-                                                <rect key="frame" x="8" y="586" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sg-cR-jA9">
-                                                <rect key="frame" x="8" y="739" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Wonka-2023" translatesAutoresizingMaskIntoConstraints="NO" id="4NH-n7-wQ3">
-                                                <rect key="frame" x="102" y="434" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dmv-KU-b4y">
-                                                <rect key="frame" x="102" y="586" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VfW-0l-8oo">
-                                                <rect key="frame" x="102" y="739" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AMG-RD-PD4">
-                                                <rect key="frame" x="196" y="739" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1tp-zg-Fgp">
-                                                <rect key="frame" x="291" y="739" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IGj-2M-SYK">
-                                                <rect key="frame" x="8" y="890" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aI7-p6-hKd">
-                                                <rect key="frame" x="8" y="1043" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TfA-DN-j3Q">
-                                                <rect key="frame" x="102" y="1043" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMZ-fn-x8F">
-                                                <rect key="frame" x="196" y="1043" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ewQ-Zl-eLc">
-                                                <rect key="frame" x="291" y="1043" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InB-wF-rAX">
-                                                <rect key="frame" x="102" y="890" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yVK-NF-iMd">
-                                                <rect key="frame" x="196" y="890" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pvO-8A-LF3">
-                                                <rect key="frame" x="291" y="890" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7VC-uE-J0W">
-                                                <rect key="frame" x="196" y="434" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yhe-6M-Lqh">
-                                                <rect key="frame" x="196" y="586" width="94" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ynz-1v-ouT">
-                                                <rect key="frame" x="291" y="586" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D5i-mG-1UQ">
-                                                <rect key="frame" x="291" y="434" width="94" height="151"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="94" id="1aB-QI-tqq"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Captura de pantalla 2024-11-25 a la(s) 1.45.48 p.m." translatesAutoresizingMaskIntoConstraints="NO" id="2fF-RG-pXw">
-                                                <rect key="frame" x="196" y="131" width="94" height="151"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Captura de pantalla 2024-11-25 a la(s) 1.49.32 p.m." translatesAutoresizingMaskIntoConstraints="NO" id="Sdl-Lw-RJn">
-                                                <rect key="frame" x="291" y="131" width="94" height="151"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHK-J9-vi5">
-                                                <rect key="frame" x="291" y="287" width="94" height="139"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterUNCLE (1)"/>
                                                 <connections>
                                                     <segue destination="Qtt-La-RPH" kind="presentation" modalPresentationStyle="fullScreen" id="icP-ob-2Ca"/>
                                                 </connections>
@@ -274,156 +178,152 @@
                                                 <rect key="frame" x="196" y="287" width="94" height="139"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterHotel"/>
                                                 <connections>
                                                     <segue destination="JxL-J2-PXa" kind="presentation" modalPresentationStyle="fullScreen" id="xYC-zM-tAD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ4-bp-sX3">
+                                                <rect key="frame" x="102" y="133" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="FantasticMrFox"/>
+                                                <connections>
+                                                    <segue destination="BI9-Wl-SjY" kind="presentation" modalPresentationStyle="fullScreen" id="OpK-3s-4w1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvB-fF-lQL">
+                                                <rect key="frame" x="8" y="133" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="TurningRed"/>
+                                                <connections>
+                                                    <segue destination="yyN-Lt-yt5" kind="presentation" modalPresentationStyle="fullScreen" id="4lg-8A-5MT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78T-g6-2fL">
                                                 <rect key="frame" x="102" y="282" width="94" height="139"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Frame 12"/>
                                                 <connections>
                                                     <segue destination="FSU-Xg-2NK" kind="presentation" modalPresentationStyle="fullScreen" id="kZe-yj-DWL"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWL-Wg-9ml">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWL-Wg-9ml">
                                                 <rect key="frame" x="8" y="282" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="LEGOBatman"/>
                                                 <connections>
                                                     <segue destination="bBq-mi-mI5" kind="presentation" modalPresentationStyle="fullScreen" id="WNI-k4-5NY"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bc-PS-14e">
-                                                <rect key="frame" x="8" y="143" width="94" height="139"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
-                                                <connections>
-                                                    <segue destination="yyN-Lt-yt5" kind="presentation" modalPresentationStyle="fullScreen" id="zqu-qN-EB3"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4PI-XK-3gw">
-                                                <rect key="frame" x="102" y="137" width="94" height="139"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
-                                                <connections>
-                                                    <segue destination="BI9-Wl-SjY" kind="presentation" modalPresentationStyle="fullScreen" id="Gsy-cD-VG5"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzc-LM-e9X">
-                                                <rect key="frame" x="196" y="143" width="94" height="139"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
-                                                <connections>
-                                                    <segue destination="jXm-uZ-hj8" kind="presentation" modalPresentationStyle="fullScreen" id="O6J-0g-EMd"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y49-bp-2W8">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y49-bp-2W8">
                                                 <rect key="frame" x="291" y="137" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterHowToTrainYourDragon"/>
                                                 <connections>
                                                     <segue destination="MSV-CC-RfA" kind="presentation" modalPresentationStyle="fullScreen" id="TSd-j1-Qya"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9t-tg-kQJ">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9t-tg-kQJ">
                                                 <rect key="frame" x="8" y="439" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.27058823529411763" green="0.080306942991631797" blue="0.025014709728033473" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterTheBatman"/>
                                                 <connections>
                                                     <segue destination="I3L-pk-uFC" kind="presentation" modalPresentationStyle="fullScreen" id="UxH-yS-6RN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xU-hZ-7pN">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xU-hZ-7pN">
                                                 <rect key="frame" x="102" y="440" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.28752615059999997" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterWonka"/>
                                                 <connections>
                                                     <segue destination="LKt-V6-FfN" kind="presentation" modalPresentationStyle="fullScreen" id="Iqd-dh-mLt"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzc-LM-e9X">
+                                                <rect key="frame" x="196" y="137" width="94" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Frame 10"/>
+                                                <connections>
+                                                    <segue destination="jXm-uZ-hj8" kind="presentation" modalPresentationStyle="fullScreen" id="O6J-0g-EMd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bT-An-pMt">
+                                                <rect key="frame" x="196" y="439" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="potserGreatestShowman"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Giw-wY-HSt">
+                                                <rect key="frame" x="286" y="440" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="potser007"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHd-X9-oF8">
+                                                <rect key="frame" x="8" y="587" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterVamps"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfs-zq-2un">
+                                                <rect key="frame" x="291" y="586" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="poterAvatarAang"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jg0-pe-nzV">
+                                                <rect key="frame" x="8" y="730" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterTokyoGodFathers"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LP-a8-RWM">
+                                                <rect key="frame" x="102" y="730" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterAvatar"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsY-87-NsF">
+                                                <rect key="frame" x="196" y="730" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterKnivesOut"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sy-hS-1QG">
+                                                <rect key="frame" x="102" y="586" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterSpiderman"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCJ-d8-c38">
+                                                <rect key="frame" x="196" y="586" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="posterChihiro"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fog-Jh-We7">
+                                                <rect key="frame" x="291" y="730" width="94" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Frame 11"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="Sdl-Lw-RJn" secondAttribute="trailing" id="1VA-Ff-KeT"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="1sg-cR-jA9" secondAttribute="leading" id="2aS-BU-ln0"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="top" secondItem="Sdl-Lw-RJn" secondAttribute="top" id="3Rc-RI-Hil"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="8Kc-vb-W56" secondAttribute="leading" id="4Dc-bb-SpY"/>
-                                            <constraint firstItem="4NH-n7-wQ3" firstAttribute="leading" secondItem="8Kc-vb-W56" secondAttribute="trailing" id="5AW-hS-nOW"/>
                                             <constraint firstItem="hou-Yg-tFb" firstAttribute="top" secondItem="euz-38-QMj" secondAttribute="top" constant="1" id="5XH-UZ-6Rl"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="bottom" secondItem="4NH-n7-wQ3" secondAttribute="bottom" id="5bg-2e-zwa"/>
-                                            <constraint firstItem="4bc-PS-14e" firstAttribute="leading" secondItem="euz-38-QMj" secondAttribute="leading" constant="8" id="6jE-r0-iJN"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="y49-bp-2W8" secondAttribute="leading" id="6qF-zq-8Cc"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="top" secondItem="euz-38-QMj" secondAttribute="top" constant="434" id="6yL-XO-5OU"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="top" secondItem="2fF-RG-pXw" secondAttribute="top" id="8Q6-MD-u7B"/>
-                                            <constraint firstItem="Y7z-qo-JKc" firstAttribute="top" secondItem="FuS-aR-Un7" secondAttribute="bottom" id="8fa-dM-TRu"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="bottom" secondItem="D5i-mG-1UQ" secondAttribute="bottom" id="8mP-65-jfh"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="GHK-J9-vi5" secondAttribute="trailing" id="9SX-CU-HA5"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="bottom" secondItem="Sdl-Lw-RJn" secondAttribute="bottom" id="9Z4-XX-ccH"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="GHK-J9-vi5" secondAttribute="leading" id="9om-6h-742"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="bottom" secondItem="2fF-RG-pXw" secondAttribute="bottom" id="AvY-DR-nYC"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="4bc-PS-14e" secondAttribute="leading" id="B8P-sQ-bQC"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="WVd-g2-a8m" secondAttribute="leading" id="Bfr-1m-LUH"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="IGj-2M-SYK" secondAttribute="trailing" id="CgC-PE-aaS"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="bottom" secondItem="4bc-PS-14e" secondAttribute="bottom" id="CwY-0Z-j5J"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="6zX-aN-9XC" secondAttribute="trailing" id="DE6-kR-nVS"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="IGj-2M-SYK" secondAttribute="leading" id="Fd7-D1-yoO"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="aI7-p6-hKd" secondAttribute="trailing" id="HNx-ps-8Fz"/>
-                                            <constraint firstItem="GWA-Af-R6M" firstAttribute="leading" secondItem="FuS-aR-Un7" secondAttribute="trailing" id="HWu-gA-C2l"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="top" secondItem="D5i-mG-1UQ" secondAttribute="top" id="IT5-jf-erO"/>
-                                            <constraint firstItem="ynz-1v-ouT" firstAttribute="top" secondItem="D5i-mG-1UQ" secondAttribute="bottom" constant="1" id="J6a-Va-7q4"/>
-                                            <constraint firstItem="4PI-XK-3gw" firstAttribute="leading" secondItem="FuS-aR-Un7" secondAttribute="trailing" id="MGz-2H-rxC"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="Y7z-qo-JKc" secondAttribute="trailing" id="MMW-JF-YHp"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="ynz-1v-ouT" secondAttribute="leading" id="Nwi-aq-Ipw"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="top" secondItem="hou-Yg-tFb" secondAttribute="bottom" constant="6" id="Nxc-o6-ZeD"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="ynz-1v-ouT" secondAttribute="trailing" id="O80-6x-tWz"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="7VC-uE-J0W" secondAttribute="trailing" constant="1" id="OY4-up-PEO"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="centerY" secondItem="y49-bp-2W8" secondAttribute="centerY" id="QgJ-yb-H24"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="1sg-cR-jA9" secondAttribute="trailing" id="Rjt-Ix-lHY"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="4bc-PS-14e" secondAttribute="trailing" id="RwU-sj-cmT"/>
-                                            <constraint firstItem="WVd-g2-a8m" firstAttribute="top" secondItem="8Kc-vb-W56" secondAttribute="bottom" constant="1" id="UuA-Ww-f8S"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="top" secondItem="4NH-n7-wQ3" secondAttribute="top" id="VPd-S1-JeS"/>
-                                            <constraint firstItem="Y7z-qo-JKc" firstAttribute="top" secondItem="4bc-PS-14e" secondAttribute="bottom" id="X4A-7v-UWA"/>
                                             <constraint firstItem="hou-Yg-tFb" firstAttribute="leading" secondItem="euz-38-QMj" secondAttribute="leading" id="XfM-l4-jBI"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="6zX-aN-9XC" secondAttribute="leading" id="Xgc-lN-agh"/>
-                                            <constraint firstItem="4PI-XK-3gw" firstAttribute="top" secondItem="hou-Yg-tFb" secondAttribute="bottom" id="Xqz-UH-vOg"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="1tp-zg-Fgp" secondAttribute="leading" id="Y1T-oC-PTD"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="1tp-zg-Fgp" secondAttribute="trailing" id="Y8p-iy-SVC"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="euz-38-QMj" secondAttribute="leadingMargin" id="ZWV-yx-JD1"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="WVd-g2-a8m" secondAttribute="trailing" id="b0b-TX-heG"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="bottom" secondItem="7VC-uE-J0W" secondAttribute="bottom" id="cRi-nN-k7Z"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="aI7-p6-hKd" secondAttribute="leading" id="dJq-OG-nuq"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="ewQ-Zl-eLc" secondAttribute="leading" id="dbY-si-ERs"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="Sdl-Lw-RJn" secondAttribute="leading" id="eiN-Uv-iBF"/>
-                                            <constraint firstItem="4bc-PS-14e" firstAttribute="top" secondItem="hou-Yg-tFb" secondAttribute="bottom" constant="18" id="fMo-on-3hB"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="top" secondItem="7VC-uE-J0W" secondAttribute="top" id="gba-YB-W6t"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="top" secondItem="6zX-aN-9XC" secondAttribute="bottom" constant="1" id="gwi-WC-pRS"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="ewQ-Zl-eLc" secondAttribute="trailing" id="h52-gb-Jql"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="leading" secondItem="pvO-8A-LF3" secondAttribute="leading" id="h8L-cy-DXT"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="centerY" secondItem="4PI-XK-3gw" secondAttribute="centerY" id="i5R-Dx-o8e"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="pvO-8A-LF3" secondAttribute="trailing" id="iLg-hE-T9l"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="sWL-Wg-9ml" secondAttribute="trailing" id="isK-IH-IVH"/>
-                                            <constraint firstItem="X0B-PB-52a" firstAttribute="top" secondItem="4PI-XK-3gw" secondAttribute="bottom" constant="6" id="jiX-5A-mq3"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="top" secondItem="Y7z-qo-JKc" secondAttribute="bottom" constant="1" id="l7h-Cy-gls"/>
                                             <constraint firstItem="hou-Yg-tFb" firstAttribute="centerX" secondItem="euz-38-QMj" secondAttribute="centerX" id="mWE-Oh-LyL"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="Y7z-qo-JKc" secondAttribute="leading" id="npE-40-4nJ"/>
                                             <constraint firstAttribute="bottom" secondItem="hou-Yg-tFb" secondAttribute="bottom" constant="1375" id="oGZ-fb-8vI"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="euz-38-QMj" secondAttribute="trailingMargin" id="oW1-tD-1yT"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="K9t-tg-kQJ" secondAttribute="leading" id="pEh-Ek-Kdk"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="bottom" secondItem="GWA-Af-R6M" secondAttribute="bottom" id="qed-Xx-z3l"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="leading" secondItem="sWL-Wg-9ml" secondAttribute="leading" id="qmx-ZV-Ao9"/>
-                                            <constraint firstItem="GWA-Af-R6M" firstAttribute="leading" secondItem="4bc-PS-14e" secondAttribute="trailing" id="reU-c1-dF2"/>
-                                            <constraint firstItem="2fF-RG-pXw" firstAttribute="leading" secondItem="4PI-XK-3gw" secondAttribute="trailing" id="tS6-0C-H9h"/>
-                                            <constraint firstItem="D5i-mG-1UQ" firstAttribute="trailing" secondItem="y49-bp-2W8" secondAttribute="trailing" id="vJ6-BY-gm6"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="top" secondItem="GWA-Af-R6M" secondAttribute="top" id="vwp-Df-j37"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="K9t-tg-kQJ" secondAttribute="trailing" id="w8p-2s-6xh"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="trailing" secondItem="8Kc-vb-W56" secondAttribute="trailing" id="wPP-Dh-JsQ"/>
-                                            <constraint firstItem="8Kc-vb-W56" firstAttribute="centerY" secondItem="8xU-hZ-7pN" secondAttribute="centerY" id="wPg-Xu-lkj"/>
-                                            <constraint firstItem="FuS-aR-Un7" firstAttribute="bottom" secondItem="mzc-LM-e9X" secondAttribute="bottom" id="yQ5-ek-20h"/>
                                             <constraint firstAttribute="height" constant="1500" id="zIV-nd-47l"/>
                                         </constraints>
                                     </view>
@@ -447,7 +347,7 @@
                             <constraint firstItem="3EX-Og-096" firstAttribute="bottom" secondItem="6fa-iH-SVM" secondAttribute="bottom" id="t8K-zh-Uei"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="393" height="852"/>
+                    <size key="freeformSize" width="393" height="842"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuF-h5-3xE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -549,7 +449,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RSQ-TP-Dgj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968.70229007633588" y="-1042.2535211267607"/>
+            <point key="canvasLocation" x="-874" y="-158"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hXf-GH-rkv">
@@ -710,7 +610,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="SIGN IN"/>
+                                <buttonConfiguration key="configuration" style="filled" title="SIGN IN">
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="LmP-B7-OUc" kind="presentation" modalPresentationStyle="fullScreen" id="As8-81-wFQ"/>
                                 </connections>
@@ -720,7 +622,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.69019607839999997" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="GO"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GO">
+                                    <color key="baseBackgroundColor" red="0.0" green="0.69019607839999997" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="crearCuentaBoton:" destination="0SL-rn-nsb" eventType="touchUpInside" id="hPL-Ue-VNZ"/>
                                 </connections>
@@ -733,6 +637,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.backward.fill" catalog="system"/>
                                 <connections>
                                     <action selector="backButtom:" destination="0SL-rn-nsb" eventType="touchUpInside" id="azC-cz-174"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="u29-5k-IQl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -740,8 +645,11 @@
                         <color key="backgroundColor" red="0.094117647058823528" green="0.10588235294117647" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="GOboton" destination="IQy-sV-Djg" id="LCH-95-P2G"/>
+                        <outlet property="aceptacionPoliticaSwitch" destination="wm1-Al-TSQ" id="hpZ-KG-uEQ"/>
                         <outlet property="crearPass" destination="OKG-yi-xQR" id="lXV-LM-32G"/>
                         <outlet property="crearUser" destination="K9O-02-yN7" id="SuU-ag-VTR"/>
+                        <outlet property="edadAdecuadaBoton" destination="xBc-Fp-Llh" id="T7m-tS-IjP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khn-Q8-F4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -787,7 +695,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.26666666666666666" green="0.33333333333333331" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="RESET PASSWORD"/>
+                                <buttonConfiguration key="configuration" style="filled" title="RESET PASSWORD">
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="tyy-bk-ZOv" kind="presentation" modalPresentationStyle="fullScreen" id="EWx-l1-qHx"/>
                                 </connections>
@@ -797,7 +707,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="JOIN"/>
+                                <buttonConfiguration key="configuration" style="filled" title="JOIN">
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="0SL-rn-nsb" kind="presentation" modalPresentationStyle="fullScreen" id="6iI-S4-05T"/>
                                 </connections>
@@ -807,7 +719,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.69019607839999997" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="GO"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GO">
+                                    <color key="baseBackgroundColor" red="0.0" green="0.69019607839999997" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="ingresoDatos:" destination="LmP-B7-OUc" eventType="touchUpInside" id="rFm-jo-aJZ"/>
                                 </connections>
@@ -853,7 +767,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W3Y-Bx-YIT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Frame 9" translatesAutoresizingMaskIntoConstraints="NO" id="W3Y-Bx-YIT">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="687"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1073,7 +987,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Captura de pantalla 2024-11-25 a la(s) 1.45.48 p.m." translatesAutoresizingMaskIntoConstraints="NO" id="zeF-G3-DdU">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Frame 10" translatesAutoresizingMaskIntoConstraints="NO" id="zeF-G3-DdU">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1125,6 +1039,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.094117647058823528" green="0.10588235294117647" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyf-h5-rpu">
+                                                <rect key="frame" x="23" y="45" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="7oD-Be-GBg"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="5GI-xR-kE6"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647058823528" green="0.10588235294117647" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647058823528" green="0.10588235294117647" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1152,7 +1077,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouY-cH-HnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1163" y="847"/>
+            <point key="canvasLocation" x="-1144" y="844"/>
         </scene>
         <!--Film Details View Controller-->
         <scene sceneID="WsK-Ci-xEs">
@@ -1214,7 +1139,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thebatman2022poster" highlightedImage="thebatman2022poster" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-Ku-Zh4">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="posterTheBatman" highlightedImage="thebatman2022poster" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-Ku-Zh4">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1266,6 +1191,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRL-1d-Wt7">
+                                                <rect key="frame" x="23" y="45" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="UR0-YQ-Ppu"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="tYW-fp-njW"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1355,7 +1291,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wonka-2023" translatesAutoresizingMaskIntoConstraints="NO" id="7aT-he-R6z">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="posterWonka" translatesAutoresizingMaskIntoConstraints="NO" id="7aT-he-R6z">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1407,6 +1343,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOW-Ik-2M5">
+                                                <rect key="frame" x="20" y="50" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="ylh-3l-OM6"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="TPN-Ad-Syc"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1489,7 +1436,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="OLw-Mk-FOZ">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LEGOBatman" translatesAutoresizingMaskIntoConstraints="NO" id="OLw-Mk-FOZ">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1548,6 +1495,17 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uab-AE-gPj">
+                                                <rect key="frame" x="23" y="55" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="8Fq-gz-rZz"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="W57-r9-doU"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1630,7 +1588,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Captura de pantalla 2024-11-25 a la(s) 1.49.32 p.m." translatesAutoresizingMaskIntoConstraints="NO" id="6t0-TQ-VPt">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="posterHowToTrainYourDragon" translatesAutoresizingMaskIntoConstraints="NO" id="6t0-TQ-VPt">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1689,6 +1647,17 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DyN-8S-957">
+                                                <rect key="frame" x="21" y="51" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="TrJ-2N-LUZ"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="CQC-vt-hO4"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1713,6 +1682,9 @@
                             <constraint firstItem="HWV-Wg-TdR" firstAttribute="leading" secondItem="tb5-6E-Dkn" secondAttribute="leading" id="scR-2t-AkZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="3VS-Ne-hmh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DRu-pw-Ebc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1778,7 +1750,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="81bhnd-MN1L._AC_UF1000,1000_QL80_" translatesAutoresizingMaskIntoConstraints="NO" id="F6g-Zq-VpN">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TurningRed" translatesAutoresizingMaskIntoConstraints="NO" id="F6g-Zq-VpN">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1830,6 +1802,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vw3-8i-G0r">
+                                                <rect key="frame" x="17" y="45" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="qMQ-aV-iND"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="JkL-jI-Ifr"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1919,7 +1902,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="rge-3O-OpS">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="posterHotel" translatesAutoresizingMaskIntoConstraints="NO" id="rge-3O-OpS">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1979,6 +1962,7 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
                                                 <connections>
                                                     <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="RIE-14-HVB"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="zGc-y0-iGf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -2056,7 +2040,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="9ru-WG-pZg">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Frame 12" translatesAutoresizingMaskIntoConstraints="NO" id="9ru-WG-pZg">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -2122,6 +2106,17 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07s-x7-ZK2">
+                                                <rect key="frame" x="21" y="54" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="atw-Om-lf6"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="6Ia-N5-TZX"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2211,7 +2206,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Captura de pantalla 2024-11-25 a la(s) 1.48.48 p.m." translatesAutoresizingMaskIntoConstraints="NO" id="7Jp-fy-p6g">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FantasticMrFox" translatesAutoresizingMaskIntoConstraints="NO" id="7Jp-fy-p6g">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -2263,6 +2258,17 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Am-Ml-gpi">
+                                                <rect key="frame" x="17" y="53" width="51" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="Y4I-q3-JAV"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="fxa-2n-cW0"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2324,8 +2330,8 @@
                                                 <color key="textColor" red="0.59999999999999998" green="0.66666666669999997" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-Q2-rMj">
-                                                <rect key="frame" x="23" y="283" width="45" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guy Ritchie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-Q2-rMj">
+                                                <rect key="frame" x="23" y="283" width="93" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" red="0.59999999999999998" green="0.66666666669999997" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2352,7 +2358,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="The_Man_from_U.N.C.L.E._poster" translatesAutoresizingMaskIntoConstraints="NO" id="wpM-3y-LOP">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="posterUNCLE (1)" translatesAutoresizingMaskIntoConstraints="NO" id="wpM-3y-LOP">
                                                 <rect key="frame" x="278" y="225" width="101" height="146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -2405,13 +2411,14 @@
                                                 <color key="backgroundColor" red="0.094117647060000004" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBp-gv-Wbh">
-                                                <rect key="frame" x="17" y="77" width="51" height="35"/>
+                                                <rect key="frame" x="17" y="45" width="51" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
                                                 <connections>
                                                     <action selector="botonRegreso:" destination="Qtt-La-RPH" eventType="touchUpInside" id="skU-7I-UCR"/>
+                                                    <segue destination="V2k-0M-gOE" kind="presentation" modalPresentationStyle="fullScreen" id="wWm-MD-UMk"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -2445,8 +2452,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="unN-3W-fPc"/>
-        <segue reference="Ifu-QZ-BHu"/>
+        <segue reference="As8-81-wFQ"/>
+        <segue reference="6iI-S4-05T"/>
         <segue reference="a7o-GZ-W22"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -2454,30 +2461,41 @@
         <image name="20241126_091043" width="1954" height="2486"/>
         <image name="20241126_091620" width="1600" height="2472"/>
         <image name="20241126_092416" width="1600" height="2133"/>
-        <image name="81bhnd-MN1L._AC_UF1000,1000_QL80_" width="667" height="1000"/>
         <image name="Captura de pantalla 2024-11-19 a la(s) 11.54.22 a.m." width="1570" height="816"/>
-        <image name="Captura de pantalla 2024-11-25 a la(s) 1.45.48 p.m." width="1390" height="2118"/>
-        <image name="Captura de pantalla 2024-11-25 a la(s) 1.48.48 p.m." width="1438" height="2082"/>
-        <image name="Captura de pantalla 2024-11-25 a la(s) 1.49.32 p.m." width="1382" height="2122"/>
         <image name="Captura de pantalla 2024-11-25 a la(s) 2.52.03 p.m." width="2010" height="1058"/>
         <image name="Captura de pantalla 2024-11-25 a la(s) 2.52.40 p.m." width="2560" height="1542"/>
         <image name="Fantastic-Mr-Fox-portada" width="700" height="400"/>
-        <image name="MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_FMjpg_UX1000_" width="1000" height="1556"/>
-        <image name="MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_FMjpg_UX1000_" width="1000" height="1482"/>
-        <image name="MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_" width="1000" height="1481"/>
+        <image name="FantasticMrFox" width="85" height="142"/>
+        <image name="Frame 10" width="85" height="142"/>
+        <image name="Frame 11" width="85" height="142"/>
+        <image name="Frame 12" width="85" height="142"/>
+        <image name="Frame 9" width="392" height="626"/>
+        <image name="LEGOBatman" width="85" height="142"/>
         <image name="Screenshot_20241125-070359_Google" width="1936" height="1071"/>
         <image name="Screenshot_20241125-071829_Google" width="1936" height="1089"/>
-        <image name="The_Man_from_U.N.C.L.E._poster" width="260" height="384"/>
-        <image name="Wonka-2023" width="700" height="1008"/>
+        <image name="TurningRed" width="85" height="142"/>
         <image name="arrowshape.backward.fill" catalog="system" width="128" height="104"/>
         <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
-        <image name="c07257ef5681c8f309b4a69ccd04fcc1" width="736" height="1041"/>
         <image name="filemenu.and.cursorarrow.rtl" catalog="system" width="128" height="107"/>
         <image name="letterboxd.logo.sf" width="2500" height="2000"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="maxresdefault" width="1280" height="720"/>
         <image name="person.crop.circle.badge.plus" catalog="system" width="128" height="114"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="posterAvatar" width="85" height="142"/>
+        <image name="posterChihiro" width="85" height="142"/>
+        <image name="posterHotel" width="85" height="142"/>
+        <image name="posterHowToTrainYourDragon" width="85" height="142"/>
+        <image name="posterKnivesOut" width="87" height="146"/>
+        <image name="posterSpiderman" width="85" height="142"/>
+        <image name="posterTheBatman" width="85" height="142"/>
+        <image name="posterTokyoGodFathers" width="85" height="142"/>
+        <image name="posterUNCLE (1)" width="87" height="146"/>
+        <image name="posterVamps" width="87" height="146"/>
+        <image name="posterWonka" width="85" height="142"/>
+        <image name="poterAvatarAang" width="85" height="142"/>
+        <image name="potser007" width="85" height="142"/>
+        <image name="potserGreatestShowman" width="85" height="142"/>
         <image name="questionmark.folder" catalog="system" width="128" height="96"/>
         <image name="r703_302u_cs.sel16.383" width="1500" height="804"/>
         <image name="rectangle.portrait.on.rectangle.portrait.angled.fill" catalog="system" width="115" height="128"/>

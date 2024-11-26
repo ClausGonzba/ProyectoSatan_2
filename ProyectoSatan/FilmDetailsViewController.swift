@@ -16,7 +16,7 @@ class FilmDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    var videitos = ["Arcane", "FANTASTICMR.FOX", "HowToTrainYourDragon2", "LEGOBatman", "TheGrandBudapestHotel", "TheManFromU.N.C.L.E", "TLotriTheTwoTowers", "TurningRed", "WONKA", "TheBatman"]
+    var videitos = ["Arcane", "FantasticMrFox", "HowToTrainYourDragon2", "LEGOBatman", "TheGrandBudapestHotel", "TheManFrom", "TLotriTheTwoTowers", "TurningRed", "WONKA", "TheBatman"]
 
     
     @IBAction func ObraMaestra(_ sender: UIButton) {
