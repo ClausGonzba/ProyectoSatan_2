@@ -9,7 +9,6 @@ import UIKit
 import AVKit
 
 
-
 class FilmDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -177,6 +176,11 @@ class FilmDetailsViewController: UIViewController {
             
             avPlayer.play()
         }
+    }
+    
+    
+    @IBAction func botonRegreso(_ sender: Any) {
+        return 
     }
     /*
     // MARK: - Navigation
